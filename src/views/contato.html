@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contato</title>
+</head>
+
+<body>
+  
+    <main class="main">
+        <div class="containerMain">
+            <div class="contato-container">
+                <section class="page">
+                    <h1 class="page-title">Contato</h1>
+                    <p class="page-subtitle">Entre em contato conosco</p>
+
+                    <div class="page-box">
+                        <div class="contact-info">
+                            <h2>Informações de Contato</h2>
+                            <p>📞 (12) 99148-5333</p>
+                            <p>📧 sandrobenitz@gmail.com</p>
+                            <p><strong>Endereço:</strong> 📍 Caraguatatuba - SP</p>
+                            <p class="page-subtitle">Fale conosco e solicite um orçamento</p>
+                            <a class="whats-btn" href="https://wa.me/5512991485333" target="_blank">
+                                Falar no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="page">
+                    <div class="page-box">
+                        <div class="wrapper">
+                            <div class="contact-form">
+
+                                <div id="alertMessage" style="
+                                    display:none;
+                                    background-color:#4caf50;
+                                    color:white;
+                                    padding:12px;
+                                    margin-top:10px;
+                                    border-radius:5px;
+                                    text-align:center;
+                                ">
+                                    Mensagem enviada com sucesso!
+                                </div>
+
+                                <h2>✉ Enviar mensagem</h2>
+
+                                <form id="contactForm" class="contact-form">
+                                    <input type="text" name="nome" placeholder="Seu nome" required>
+                                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                                    <input type="text" name="assunto" placeholder="Assunto" required>
+                                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                                    <button type="submit">Enviar Mensagem</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+   
+    <script src="/js/main.js" defer></script>
+</body>
+
+</html>
